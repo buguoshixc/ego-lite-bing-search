@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Bing Default Search",
+  "version": "1.0.0",
+  "description": "Set the default search provider to Bing (cn.bing.com).",
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Bing",
+      "keyword": "bing",
+      "search_url": "https://cn.bing.com/search?q={searchTerms}",
+      "favicon_url": "https://cn.bing.com/favicon.ico",
+      "encoding": "UTF-8",
+      "is_default": true
+    }
+  }
+}
